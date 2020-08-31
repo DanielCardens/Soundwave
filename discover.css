@@ -1,25 +1,59 @@
 .landing-girl{
     width: auto;
     height: 70%;
+    
 }
 .second-part{
-   
+   height: 70%;
+  
+   display: flex;
+   justify-content: flex-start;
 }
 .boxes{
     display: flex;
-    justify-content: space-between;
+    margin-left: 20%;
     width: 100%;
 }
 .box1{
-    width: 30%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+.box3{
+    width: 100px;
     height: 100px;
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     
+    
 }
 .boximg{
     width: 60%;
     margin: auto;
+}
+.title{
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+.subtitle{
+    margin-left: 20%;
+    margin-top: 5%;;
 }
