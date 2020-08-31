@@ -1,6 +1,10 @@
 *, *::before, *::after{
     box-sizing: border-box;
+    
 }
+
+
+/* when trying to put the body height 100% of the page, it didn't work, so i went changed the w and h of the root */
 
 body{
     padding: 0;
@@ -9,13 +13,131 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     color:white;
+    width: 100%;
+    height: 100%;
 }
 .brand-logo{
     display: flex;
     align-items: center;
-    font-size: 1.25em;
+    font-size: 1.25em; 
+    color: inherit;
+    text-decoration: none;
 }
 
 .brand-logo-name{
-    margin-left: ;
+    margin-left: 1rem;
+}
+.main-nav ul{
+    display: flex;
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.main-nav a{
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+   
+}
+.main-nav a:hover{
+    color: #adadad;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    height: 10vh;
+}
+
+.main-main{
+    width: 100%;
+    height: 80vh;
+}
+.main-section{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.first-part{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 50%;
+    height: 100%;
+}
+.second-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 50%;
+    
+}
+.btn{
+    color: white;
+    background-color:#1762A7;
+    padding: .75rem 1.5rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    border: none;
+}
+.btn:hover{
+    background-color: #2180d8;
+}
+.btn:focus {
+    background-color: #2796ff;
+}
+
+.title{
+    font-size: 4.5rem;
+    color:white;
+    font-weight: 500;
+}
+.subtitles{
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color:white;
+    font-size: 2.25rem;
+   
+}
+footer span{
+    font-size: 1.4rem;
+    color: white;
+}
+
+.first-footer {
+    text-decoration: none;
+    margin-left: 10%;
+}
+.first-footer span{
+    margin-right: 1rem;
+}
+.second-footer {
+    text-decoration: none;
+    margin-right: 10%;
+}
+.second-footer span{
+    margin-right: 1rem;
+}
+.footer-img{
+    width: 1rem;
 }
