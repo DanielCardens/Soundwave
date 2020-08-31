@@ -1,0 +1,25 @@
+.landing-girl{
+    width: auto;
+    height: 70%;
+}
+.second-part{
+   
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.box1{
+    width: 30%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.boximg{
+    width: 60%;
+    margin: auto;
+}
